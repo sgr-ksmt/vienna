@@ -63,6 +63,11 @@ main {
     text-decoration: none;
 }
 
+.header-text h5 a {
+    color: rgba(255, 255, 255, 1.0);
+    text-decoration: none;
+}
+
 a.btn-header {
     position: absolute;
     top: 20px;
@@ -94,6 +99,12 @@ hr.custom_line {
 height: 1px;
 border: none;
 border-top: 1px #CCCCCC solid;
+}
+
+div.header_about {
+  position: absolute;
+  right: 20px;
+  bottom: 0px;
 }
 /* Footer */
 
