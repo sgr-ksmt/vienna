@@ -90,6 +90,11 @@ a.btn-back {
     left: 20px;
 }
 
+hr.custom_line {
+height: 1px;
+border: none;
+border-top: 1px #CCCCCC solid;
+}
 /* Footer */
 
 .global-footer {

@@ -12,7 +12,7 @@
       </div>
       <div class="pull-right">
         {{ range .Params.tags }}
-        <span class="post-tag small"><a href="{{ $baseurl }}/tags/{{ . | urlize }}">#{{ . }}</a></span>
+        <span class="post-tag small"><a href="{{ $baseurl }}/tags/{{ . | urlize }}">{{ . }}</a></span>
         {{ end }}
       </div>
     </div>
@@ -34,7 +34,8 @@
     </script>
     <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
     {{ end }}
-    <section class="author-info row">
+    <hr class="custom_line">
+    <!-- <section class="author-info row">
       <div class="author-avatar col-md-2">
         {{ with .Site.Params.avatar }}
         <img alt="Author Avatar" src="{{ . }}" />
@@ -56,7 +57,7 @@
         </a>
       </div>
       {{ end }}
-    </section>
+    </section> -->
     <ul class="pager">
       {{ if .Next }}
       <li class="previous"><a href="{{ .Next.Permalink }}"><span aria-hidden="true">&larr;</span> Older</a></li>
