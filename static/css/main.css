@@ -240,36 +240,51 @@ div.header_about {
 
 .pagination
 {
-	/*width: 720px;*/
-  display:table;
-  margin:20px auto 10px auto;
-}
-
-.older-posts,.newer-posts
-{
-	display: inline!important;
-	border: 1px solid #ddd;
-	border-radius: 15px;
-	text-decoration: none;
-	transition: border .3s ease;
-	padding: 5px 14px;
-}
-
-.page-number
-{
-	display: inline-block;
-	min-width: 100px;
-	padding: 2px 0;
-}
-
-.newer-posts
-{
-	float: left;
+	width: 100%;
+  display: table;
+  margin-left:auto;
+  margin-right:auto;
+  text-align: center;
+  /*display:table;
+  margin:20px auto 10px auto;*/
 }
 
 .older-posts
 {
-    float: right;
+	display: inline!important;
+	/*border: 1px solid #ddd;
+	border-radius: 15px;
+	text-decoration: none;
+	transition: border .3s ease;*/
+	padding: 0px 0px 0px 10px;
+}
+
+.newer-posts
+{
+	display: inline!important;
+	/*border: 1px solid #ddd;
+	border-radius: 15px;
+	text-decoration: none;
+	transition: border .3s ease;*/
+	padding: 0px 10px 0px 0px;
+}
+
+
+.page-number
+{
+	display: inline-block;
+	/*min-width: 150px;*/
+	/*padding: 2px 2;*/
+}
+
+.newer-posts
+{
+	/*float: left;*/
+}
+
+.older-posts
+{
+    /*float: right;*/
 }
 
 .older-posts:hover,.newer-posts:hover
