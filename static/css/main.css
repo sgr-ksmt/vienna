@@ -1,6 +1,7 @@
 main {
     max-width: 750px;
     word-wrap: break-word;
+    margin: 0 auto;
 }
 
 /* Header */
@@ -294,7 +295,7 @@ blockquote {
 }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-    font-family: "Source Sans Pro", "Kozuka Gothic Pr6N", Meiryo, sans-serif !important;
+    font-family: "Source Sans Pro", "hiragino kaku gothic pro", "Osaka", Meiryo, sans-serif !important;
 }
 
 article section img {
