@@ -5,7 +5,6 @@
     <h3 class="text-primary">{{ .Title }}</h1>
     <div class="post-meta clearfix">
       <div class="post-date pull-left">
-        Posted on
         <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">
           {{ .Date.Format "Jan 2, 2006" }}
         </time>
@@ -17,8 +16,10 @@
       </div>
     </div>
   </header>
+  <hr class="custom_line">
   <section>
     {{ .Content }}
+    <a href="https://twitter.com/share" class="twitter-share-button"{count} data-size="large">Tweet</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
   </section>
   <footer>
     {{ with .Site.Params.disqus }}
@@ -35,6 +36,7 @@
     <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
     {{ end }}
     <hr class="custom_line">
+
     <!-- <section class="author-info row">
       <div class="author-avatar col-md-2">
         {{ with .Site.Params.avatar }}
