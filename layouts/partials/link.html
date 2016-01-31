@@ -44,4 +44,10 @@
     <i class="fa fa-key"></i>
   </a>
   {{ end }}
+  {{ with .RSSLink }}
+  <a href="{{ . }}">
+    <i class="fa fa-rss"></i>
+  </a>
+  {{ end }}
+
 </div>

@@ -52,17 +52,17 @@
       {{ end }}
       {{ partial "link.html" . }}
       {{ if ne .URL "/" }}
-      <a href="{{ .Site.BaseURL }}" class="btn-header btn-back hidden-xs">
+      <a href="{{ .Site.BaseURL }}" class="btn-header btn-back"><!-- hidden-xs -->
         <i class="fa fa-angle-left" aria-hidden="true"></i>
         &nbsp;Home
       </a>
       {{ end }}
-      {{ with .RSSLink }}
+      <!-- {{ with .RSSLink }}
       <a href="{{ . }}" class="btn-header btn-subscribe hidden-xs">
         <i class="fa fa-rss" aria-hidden="true"></i>
         &nbsp;Subscribe
       </a>
-      {{ end }}
+      {{ end }} -->
       <div class="header_about"><h5>
         <a href="{{ .Site.BaseURL }}about/">About</a> |
         <a href="{{ .Site.BaseURL }}post/">Posts</a> |

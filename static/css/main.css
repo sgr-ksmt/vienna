@@ -7,7 +7,7 @@ main {
 /* Header */
 
 .global-header {
-    background: #222 no-repeat center center;
+    background: #444 no-repeat center center;
     background-size: cover;
 }
 
@@ -29,21 +29,24 @@ main {
 }
 
 .header-text .sns-links {
-    margin: 20px auto;
+    position: relative;
+    top: 10px;
+    height: 100px;
+    /*margin: 40px auto;*/
     text-align: center;
 }
 
 .header-text .sns-links a {
     display: inline-block;
     margin: 0 2px;
-    width: 30px;
-    height: 30px;
+    width: 36px;
+    height: 36px;
     border: 1px solid rgba(255, 255, 255, 0.6);
-    border-radius: 15px;
+    border-radius: 18px;
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
-    font-size: 20px;
-    line-height: 30px;
+    font-size: 23px;
+    line-height: 36px;
     transition: color,border-color 0.1s linear;
 }
 
@@ -71,10 +74,10 @@ main {
 
 a.btn-header {
     position: absolute;
-    top: 20px;
-    padding: 7px 16px;
+    top: 8px;
+    padding: 2px 8px;
     border: 1px solid rgba(255, 255, 255, 1.0);
-    border-radius: 3px;
+    border-radius: 4px;
     background-color: rgba(0, 0, 0, 0.1);
     color: rgba(255, 255, 255, 1.0);
     text-decoration: none;
@@ -105,7 +108,7 @@ border-top: 1px #CCCCCC solid;
 div.header_about {
   position: absolute;
   right: 20px;
-  bottom: 0px;
+  bottom: -5px;
 }
 /* Footer */
 
@@ -237,8 +240,9 @@ div.header_about {
 
 .pagination
 {
-	width: 720px;
-	text-align: center;
+	/*width: 720px;*/
+  display:table;
+  margin:20px auto 10px auto;
 }
 
 .older-posts,.newer-posts
