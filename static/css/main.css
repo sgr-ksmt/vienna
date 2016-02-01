@@ -2,12 +2,14 @@ main {
     max-width: 750px;
     word-wrap: break-word;
     margin: 0 auto;
+    font-size: 15px;
+    color: #444444;
 }
 
 /* Header */
 
 .global-header {
-    background: #444 no-repeat center center;
+    background: #777 no-repeat center center;
     background-size: cover;
 }
 
@@ -60,11 +62,13 @@ main {
     padding-top: 30px;
     text-align: center;
     font-weight: 200;
+    font-family: "Source Sans Pro";
 }
 
 .header-text h1 a {
     color: rgba(255, 255, 255, 1.0);
     text-decoration: none;
+    font-family: "Source Sans Pro";
 }
 
 .header-text h5 a {
@@ -109,6 +113,14 @@ div.header_about {
   position: absolute;
   right: 20px;
   bottom: -5px;
+}
+
+h5.header_about {
+  font-family: "Source Sans Pro";
+}
+
+a.header_about {
+  font-family: "Source Sans Pro";
 }
 /* Footer */
 
@@ -317,7 +329,7 @@ blockquote {
 }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-    font-family: "Source Sans Pro", "hiragino kaku gothic pro", "Osaka", Meiryo, sans-serif !important;
+    font-family: "hiragino kaku gothic pro", "Osaka", Meiryo, sans-serif !important;
 }
 
 article section img {
