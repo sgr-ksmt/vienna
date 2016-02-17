@@ -1,6 +1,6 @@
 <nav class="pagination" role="navigation">
 {{ if or .HasPrev .HasNext }}
-  <hr />
+  <hr class="custom_line" />
 {{ end }}
 {{if .HasPrev}}
 <a class="newer-posts" href="{{ .Prev.URL }}"><span aria-hidden="true">&laquo; Previous</span><!-- Newer Posts --></a>

@@ -15,11 +15,11 @@
         <span class="post-tag small"><a href="{{ $baseurl }}/tags/{{ . | urlize }}">{{ . }}</a></span>
         {{ end }}
       </div>
-      <hr class="custom_line">
     </div>
   </header>
   <section>
-
+    <br />
+    <hr class="custom_line" />
     {{ .Content }}
 
     {{ if ne .RelPermalink "/about/" }}

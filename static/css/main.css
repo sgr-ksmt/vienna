@@ -109,6 +109,14 @@ border: none;
 border-top: 1px #CCCCCC solid;
 }
 
+hr {
+height: 2px;
+border: none;
+border-top: 2px #66AA66 dashed;
+margin: -5px 0px 15px 0px;
+}
+
+
 div.header_about {
   position: absolute;
   right: 20px;

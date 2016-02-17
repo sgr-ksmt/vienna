@@ -2,7 +2,7 @@
 <div class="article-list">
   {{ range $index, $page := .Paginator.Pages }}
   {{ if ne $index 0 }}
-  <hr/>
+  <hr class="custom_line" />
   {{ end }}
   {{ .Render "li" }}
   {{ end }}
