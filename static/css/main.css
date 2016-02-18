@@ -57,6 +57,16 @@ main {
     color: rgba(255, 255, 255, 1.0);
 }
 
+.header-text .sns-links-other a {
+    width: 36px;
+    height: 36px;
+    text-decoration: none;
+    font-size: 23px;
+    line-height: 36px;
+    transition: color,border-color 0.1s linear;
+}
+
+
 .header-text h1 {
     margin: 0 auto;
     padding-top: 30px;
@@ -352,3 +362,35 @@ img {
     height: auto;
 }
 
+/* Feedly */
+@font-face {
+    font-family: 'icomoon';
+    src:url('../fonts/icomoon.eot?t154j0');
+    src:url('../fonts/icomoon.eot?#iefixt154j0') format('embedded-opentype'),
+        url('../fonts/icomoon.woff?t154j0') format('woff'),
+        url('../fonts/icomoon.ttf?t154j0') format('truetype'),
+        url('../fonts/icomoon.svg?t154j0#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    font-family: 'icomoon';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-feedly:before {
+    content: "\e600";
+}
+.icon-feedly-square:before {
+    content: "\e601";
+}
