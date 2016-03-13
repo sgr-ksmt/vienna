@@ -45,6 +45,7 @@
 
     {{ .Content }}
 
+    {{ partial "ads.html" .}}
     {{ if ne .RelPermalink "/about/" }}
     <br /><br />
     <!-- <img src="/images/dummy.png" style="width:5px;height:5px;" />
